@@ -10,4 +10,4 @@ ADD . .
 
 RUN pip install .
 
-ENTRYPOINT [ "uvicorn", "hubble_server:app", "--host", "0.0.0.0", "--port", "8888", "--reload" ]
+ENTRYPOINT [ "uvicorn", "hubble_server:app", "--host", "0.0.0.0", "--port", "8888" ]
