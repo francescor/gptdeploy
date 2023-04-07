@@ -31,5 +31,5 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           push: true
-          tags: ${{ steps.meta.outputs.tags }}
+          tags: jinahub/hubble-microchain:latest
           labels: ${{ steps.meta.outputs.labels }}
