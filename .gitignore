@@ -1,3 +1,5 @@
 /executor_level2/
 
 .env
+
+*__pycache__/
